@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+:root {
+    --main_color: #6f00ff;
+    --secundary_color: #ffffff;
+    --bg_color: #000000;
+}
+
+body {
+    background-color: var(--bg_color);
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    padding: 20px 50px;
+    background-color: var(--bg_color);
+    border-bottom: solid 2px var(--main_color);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.nome span {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: var(--main_color);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 70px
+}
+
+.icons a {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--secundary_color);
+}
+
+.icons a:hover {
+    transform: scale(1.1);
+    color: var(--main_color);
+    border-bottom: solid 2px var(--main_color);
+}
+
+.container_sobre_mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding: 140px 50px 40px 50px;
+    gap: 40px;
+}
+
+.sobre_mim_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre_mim_title h1 {
+    font-size: 46px;
+    color: var(--secundary_color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sobre_mim_title h2 {
+    font-size: 46px;
+    color: var(--main_color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container_img_sobre {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.imagem_sobre {
+    display: flex;
+    align-items: center;
+    gap: 80px
+}
+
+.imagem_sobre img {
+    width: 340px;
+    object-fit: cover;
+    border-radius: 1000px;
+    border: solid 2px var(--main_color);
+}
+
+.imagem_sobre img:hover {
+    transform: scale(1.05);
+}
+
+.sobre_mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sobre_mim_span {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: var(--secundary_color);
+    font-weight: 700;
+    width: 100%;
+}
+
