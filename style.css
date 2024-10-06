@@ -10,7 +10,7 @@
 }
 
 :root {
-    --main_color: #6f00ff;
+    --main_color: #8400ff;
     --secundary_color: #ffffff;
     --bg_color: #000000;
 }
@@ -82,15 +82,15 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 160px 420px 0px 420px;
-    gap: 120px;
+    padding: 160px 420px 260px 420px;
+    gap: 140px;
 }
 
 .container_sobre_mim_title {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .container_sobre_mim_title h1 {
@@ -142,6 +142,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     gap: 18px;
 }
+
 .sobre_mim_text_title h1 {
     font-size: 30px;
     font-weight: 700;
@@ -172,5 +173,61 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container_social {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 420px 120px 420px;
+    gap: 140px;
+}
+
+.container_social_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container_social_title h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--secundary_color);
+    letter-spacing: 2px;
+}
+
+.container_social_title h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--main_color);
+    letter-spacing: 2px;
+}
+
+.container_redes_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 20px 6px var(--main_color);
+}
+
+.redes_sociais span {
+    font-size: 22px;
+    color: var(--secundary_color);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.redes_sociais img {
+    width: 50px;
+}
+
+.redes_sociais img:hover {
+    transform: scale(1.2);
 }
