@@ -217,6 +217,11 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0px 0px 20px 6px var(--main_color);
 }
 
+.redes_sociais:hover {
+    transform: scale(1.05);
+    background-color: #0c0018;
+}
+
 .redes_sociais span {
     font-size: 22px;
     color: var(--secundary_color);
@@ -226,8 +231,4 @@ body::-webkit-scrollbar-thumb {
 
 .redes_sociais img {
     width: 50px;
-}
-
-.redes_sociais img:hover {
-    transform: scale(1.2);
 }
